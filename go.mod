@@ -6,7 +6,7 @@ go 1.12
 replace github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.3
 
 require (
-	github.com/containerd/containerd v1.5.9 // indirect
+	github.com/containerd/containerd v1.5.18 // indirect
 	github.com/containrrr/shoutrrr v0.5.2
 	github.com/docker/cli v20.10.8+incompatible
 	github.com/docker/distribution v2.7.1+incompatible
@@ -25,7 +25,6 @@ require (
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.6.3
-	github.com/stretchr/testify v1.6.1
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-	golang.org/x/sys v0.0.0-20210831042530-f4d43177bf5e // indirect
+	github.com/stretchr/testify v1.7.0
+	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
 )
